@@ -7,9 +7,14 @@ class Pipe{
         this.filters.push(filter);
     }
 
-    runFilters(){
-        for(let i = 0; i< this.filters.length; i++){
-            
+    runFilters(input){
+        for(let i = 0; i < this.filters.length; i++){
+            input = this.filters[i](input);
         }
+        return input;
     }
+}
+
+module.exports = {
+    Pipe: Pipe
 }
