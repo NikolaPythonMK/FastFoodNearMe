@@ -123,7 +123,7 @@
           "amenity": "fast_food",
           "cuisine": "regional",
           "name": "DM Restaurant",
-          "opening_hours": "10:00-00:00"
+          "opening_hours": "0-6 10:00-00:00"
         }
       },
       {
@@ -147,7 +147,8 @@
           "addr:street": "Булевар Јане Сандански",
           "amenity": "fast_food",
           "name": "Лесковац",
-          "smoking": "isolated"
+          "smoking": "isolated",
+          "outdoor_seating": "yes"
         }
       },
       {
@@ -167,7 +168,9 @@
         "tags": {
           "amenity": "fast_food",
           "cuisine": "burger",
-          "name": "MFC - Macedonian Fried Chicken"
+          "name": "MFC - Macedonian Fried Chicken",
+          "smoking": "isolated",
+          "outdoor_seating": "yes"
         }
       },
       {
@@ -186,7 +189,9 @@
           "cuisine": "burger",
           "name": "Burger Friends",
           "takeaway": "only",
-          "website": "http://www.burgerfriends.mk/"
+          "website": "http://www.burgerfriends.mk/",
+          "smoking": "isolated",
+          "outdoor_seating": "yes"
         }
       },
       {
@@ -195,7 +200,8 @@
         "lat": 41.9898733,
         "lon": 21.4197501,
         "tags": {
-          "amenity": "fast_food"
+          "amenity": "fast_food",
+          "opening_hours": "0-6 10:00-24:00"
         }
       },
       {
@@ -219,7 +225,10 @@
         "lon": 21.4531813,
         "tags": {
           "amenity": "fast_food",
-          "name": "Лесковачка Вили"
+          "name": "Лесковачка Вили",
+          "smoking": "isolated",
+          "outdoor_seating": "yes",
+          "opening_hours": "0-6 10:00-24:00"
         }
       },
       {
@@ -246,7 +255,8 @@
           "int_name": "La Puerta",
           "name": "Ла Пуерта",
           "outdoor_seating": "no",
-          "takeaway": "yes"
+          "takeaway": "yes",
+          "smoking": "isolated"
         }
       },
       {
@@ -256,7 +266,8 @@
         "lon": 21.4650587,
         "tags": {
           "amenity": "fast_food",
-          "name:en": "Kono pizza"
+          "name:en": "Kono pizza",
+          "opening_hours": "0-6 10:00-24:00"
         }
       },
       {
@@ -277,10 +288,11 @@
           "delivery": "yes",
           "description": "Limited seating options",
           "name": "Domino's Pizza",
-          "opening_hours": "Mo-Su 10:00-24:00",
+          "opening_hours": "0-6 10:00-24:00",
           "outdoor_seating": "yes",
           "short_name": "Domino's",
-          "takeaway": "yes"
+          "takeaway": "yes",
+          "smoking": "isolated"
         }
       },
       {
@@ -290,7 +302,9 @@
         "lon": 21.4170443,
         "tags": {
           "amenity": "fast_food",
-          "name": "Royal Burger"
+          "name": "Royal Burger",
+          "outdoor_seating": "yes",
+          "opening_hours": "0-6 10:00-24:00"
         }
       },
       {
@@ -305,7 +319,9 @@
           "brand:wikipedia": "en:Burger King",
           "cuisine": "burger",
           "name": "Burger King",
-          "takeaway": "yes"
+          "takeaway": "yes",
+          "smoking": "isolated",
+          "outdoor_seating": "yes"
         }
       },
       {
@@ -345,7 +361,8 @@
         "lon": 21.4006990,
         "tags": {
           "amenity": "fast_food",
-          "name": "Жужу Бургер"
+          "name": "Жужу Бургер",
+          "outdoor_seating": "yes"
         }
       },
       {
@@ -383,7 +400,7 @@
           "cuisine": "waffle",
           "drive_through": "no",
           "name": "BubbleWaffle's",
-          "opening_hours": "10:00-21:00",
+          "opening_hours": "0-6 10:00-21:00",
           "outdoor_seating": "no",
           "phone": "+389 78 243 483",
           "takeaway": "yes",
@@ -402,8 +419,10 @@
           "email": "bokiev44@gmail.com",
           "name": "Пицерија Џокер",
           "name:en": "Pizza Joker",
-          "opening_hours": "Mo-Fr 09:00-23:00; Sa 11:00-11:00; Su 12:00-20:00",
-          "phone": "+38976840031"
+          "opening_hours": "1-5 09:00-23:00; 6 11:00-11:00; 0 12:00-20:00",
+          "phone": "+38976840031",
+          "smoking": "isolated",
+          "outdoor_seating": "yes"
         }
       },
       {
@@ -414,7 +433,8 @@
         "tags": {
           "amenity": "fast_food",
           "cuisine": "regional;sandwich",
-          "name": "Млечен ресторант АНЕ"
+          "name": "Млечен ресторант АНЕ",
+          "outdoor_seating": "yes"
         }
       },
       {
@@ -426,7 +446,8 @@
           "amenity": "fast_food",
           "cuisine": "kebab",
           "internet_access": "wlan",
-          "name:en": "Gelateria Mony"
+          "name:en": "Gelateria Mony",
+          "outdoor_seating": "yes"
         }
       },
       {
@@ -444,7 +465,10 @@
         "lat": 41.9927909,
         "lon": 21.4301511,
         "tags": {
-          "amenity": "fast_food"
+          "amenity": "fast_food",
+          "smoking": "isolated",
+          "outdoor_seating": "yes",
+          "internet_access": "wlan"
         }
       },
       {
@@ -462,7 +486,10 @@
         "lat": 41.9968420,
         "lon": 21.4395864,
         "tags": {
-          "amenity": "fast_food"
+          "amenity": "fast_food",
+          "smoking": "isolated",
+          "outdoor_seating": "yes",
+          "internet_access": "wlan"
         }
       },
       {
@@ -472,7 +499,8 @@
         "lon": 21.4184238,
         "tags": {
           "amenity": "fast_food",
-          "name": "Cafe Pauza"
+          "name": "Cafe Pauza",
+          "outdoor_seating": "yes"
         }
       },
       {
@@ -481,7 +509,8 @@
         "lat": 41.9989695,
         "lon": 21.4184652,
         "tags": {
-          "amenity": "fast_food"
+          "amenity": "fast_food",
+          "internet_access": "wlan"
         }
       },
       {
@@ -538,7 +567,8 @@
         "lat": 41.9856700,
         "lon": 21.4375301,
         "tags": {
-          "amenity": "fast_food"
+          "amenity": "fast_food",
+          "internet_access": "wlan"
         }
       },
       {
@@ -553,7 +583,7 @@
           "internet_access": "wlan",
           "name": "Ла пица",
           "name:en": "LaPizza",
-          "opening_hours": "Mo-Su 09:00-23:00",
+          "opening_hours": "0-6 09:00-23:00",
           "operator": "Тодор Ѓорѓиев",
           "phone": "+38972575756",
           "website": "http://lapizza.mk"
@@ -571,9 +601,10 @@
           "cuisine": "mexican",
           "diet:vegan": "yes",
           "name": "La Puerta",
-          "opening_hours": "Mo-Su 08:00-00:00",
+          "opening_hours": "0-6 08:00-00:00",
           "phone": "+389 78 442 897",
-          "website": "http://www.lapuerta.mk/"
+          "website": "http://www.lapuerta.mk/",
+          "internet_access": "wlan"
         }
       },
       {
@@ -586,7 +617,8 @@
           "amenity": "fast_food",
           "drive_through": "no",
           "name:en": "Bon Appetit 2",
-          "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-18:00"
+          "opening_hours": "1-5 08:00-20:00; 0 09:00-18:00",
+          "internet_access": "wlan"
         }
       },
       {
@@ -610,7 +642,8 @@
         "lon": 21.4373728,
         "tags": {
           "amenity": "fast_food",
-          "name": "Proper pizza"
+          "name": "Proper pizza",
+          "internet_access": "wlan"
         }
       },
       {
@@ -620,7 +653,8 @@
         "lon": 21.4381868,
         "tags": {
           "amenity": "fast_food",
-          "name": "Cardak"
+          "name": "Cardak",
+          "internet_access": "wlan"
         }
       },
       {
@@ -630,7 +664,8 @@
         "lon": 21.4387207,
         "tags": {
           "amenity": "fast_food",
-          "name": "Tetekis"
+          "name": "Tetekis",
+          "internet_access": "wlan"
         }
       },
       {
@@ -640,7 +675,8 @@
         "lon": 21.4389514,
         "tags": {
           "amenity": "fast_food",
-          "name": "Doner"
+          "name": "Doner",
+          "internet_access": "wlan"
         }
       },
       {
@@ -650,7 +686,8 @@
         "lon": 21.4398152,
         "tags": {
           "amenity": "fast_food",
-          "name": "Turkish Doner"
+          "name": "Turkish Doner",
+          "internet_access": "wlan"
         }
       },
       {
@@ -660,7 +697,8 @@
         "lon": 21.4384421,
         "tags": {
           "amenity": "fast_food",
-          "name": "Hamza Doner"
+          "name": "Hamza Doner",
+          "internet_access": "wlan"
         }
       },
       {
@@ -681,7 +719,8 @@
         "tags": {
           "amenity": "fast_food",
           "name:en": "Teteks",
-          "opening_hours": "Mo-Su 07:00-00:00"
+          "opening_hours": "0-6 07:00-00:00",
+          "outdoor_seating": "yes"
         }
       },
       {
@@ -730,9 +769,10 @@
           "drive_through": "no",
           "name": "ЈЕС Паста",
           "name:en": "ЈЕS Pasta",
-          "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-14:00",
+          "opening_hours": "1-5 08:00-18:00; 0 08:00-14:00",
           "phone": "+38926090192",
-          "website": "https://www.instagram.com/jes_pasta/"
+          "website": "https://www.instagram.com/jes_pasta/",
+          "outdoor_seating": "yes"
         }
       },
       {
@@ -749,7 +789,7 @@
           "cuisine": "sandwich",
           "drive_through": "no",
           "name": "Subzy",
-          "opening_hours": "Mo-Fr 09:00-19:00; Sa 11:00-19:00",
+          "opening_hours": "1-5 09:00-19:00; 0 11:00-19:00",
           "phone": "+38971328554;+38923228044",
           "website": "https://subzy.mk/"
         }
@@ -763,7 +803,9 @@
           "amenity": "fast_food",
           "cuisine": "sandwich;burger;chips",
           "drive_through": "no",
-          "name": "Brisket Sandwich Bar"
+          "name": "Brisket Sandwich Bar",
+          "outdoor_seating": "yes",
+          "opening_hours": "1-5 08:00-20:00; 0 09:00-18:00"
         }
       },
       {
@@ -775,7 +817,8 @@
           "amenity": "fast_food",
           "cuisine": "waffle",
           "drive_through": "no",
-          "name": "Fluffy"
+          "name": "Fluffy",
+          "opening_hours": "1-5 08:00-20:00; 0 09:00-18:00"
         }
       },
       {
@@ -784,7 +827,8 @@
         "lat": 42.0025366,
         "lon": 21.4390081,
         "tags": {
-          "amenity": "fast_food"
+          "amenity": "fast_food",
+          "opening_hours": "1-5 08:00-20:00; 0 09:00-18:00"
         }
       },
       {
@@ -793,7 +837,8 @@
         "lat": 42.0028083,
         "lon": 21.4385702,
         "tags": {
-          "amenity": "fast_food"
+          "amenity": "fast_food",
+          "opening_hours": "1-5 08:00-20:00; 0 09:00-18:00"
         }
       },
       {
@@ -803,7 +848,8 @@
         "lon": 21.4389588,
         "tags": {
           "amenity": "fast_food",
-          "name": "Lama Palace"
+          "name": "Lama Palace",
+          "opening_hours": "1-5 08:00-20:00; 0 09:00-18:00"
         }
       },
       {
@@ -813,7 +859,8 @@
         "lon": 21.4395663,
         "tags": {
           "amenity": "fast_food",
-          "name": "Plaset"
+          "name": "Plaset",
+          "opening_hours": "1-5 08:00-20:00; 0 09:00-18:00"
         }
       },
       {
@@ -823,7 +870,8 @@
         "lon": 21.4159274,
         "tags": {
           "amenity": "fast_food",
-          "name:en": "Fat kitchen"
+          "name:en": "Fat kitchen",
+          "opening_hours": "1-5 08:00-20:00; 0 09:00-18:00"
         }
       },
       {
@@ -833,7 +881,8 @@
         "lon": 21.4252785,
         "tags": {
           "amenity": "fast_food",
-          "name": "Spizzicotto"
+          "name": "Spizzicotto",
+          "opening_hours": "1-5 08:00-20:00; 0 09:00-18:00"
         }
       }
     ]

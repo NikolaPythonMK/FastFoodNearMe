@@ -51,14 +51,14 @@
 <body>
   <a href="index.html"><img src="images/map-icon.png"></a>
   <h1>Contact Us</h1>
-  <form action="mailto:you@example.com" method="post" enctype="text/plain">
+  <form action="http://localhost:8080/app/contact" method="post" enctype="text/plain">
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name"><br>
     <label for="email">Email:</label><br>
     <input type="text" id="email" name="email"><br>
     <label for="message">Message:</label><br>
-    <textarea id="message" name="message"></textarea><br>
-    <input type="submit" value="Submit">
+    <textarea id="message" name="message" id="msg"></textarea><br>
+    <input type="submit" value="Submit" id="submit">
   </form>
 </body>
 </html>
