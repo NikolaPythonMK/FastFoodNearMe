@@ -30,7 +30,7 @@
       box-sizing: border-box;
       resize: vertical;
     }
-    input[type="submit"] {
+    input[type="submit"], button {
       background-color: #4CAF50;
       color: white;
       padding: 12px 20px;
@@ -38,7 +38,7 @@
       border-radius: 4px;
       cursor: pointer;
     }
-    input[type="submit"]:hover {
+    input[type="submit"]:hover, button:hover {
       background-color: #45a049;
     }
     img{
@@ -46,19 +46,28 @@
       height: 50px;
       cursor: pointer;
     }
+    #output{
+      color: greenyellow;
+      font-size: 22px;
+      display: flex;
+      justify-content: center;
+    }
   </style>
 </head>
 <body>
   <a href="index.html"><img src="images/map-icon.png"></a>
   <h1>Contact Us</h1>
-  <form action="http://localhost:8080/app/contact" method="post" enctype="text/plain">
+  <form id="myForm">
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name"><br>
     <label for="email">Email:</label><br>
     <input type="text" id="email" name="email"><br>
     <label for="message">Message:</label><br>
-    <textarea id="message" name="message" id="msg"></textarea><br>
+    <textarea id="message" name="message"></textarea><br>
     <input type="submit" value="Submit" id="submit">
   </form>
+  <span id="output"></span>
+  
+  <script src="./scripts/contact.js"></script>
 </body>
 </html>

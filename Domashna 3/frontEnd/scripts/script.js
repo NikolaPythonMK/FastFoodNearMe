@@ -151,7 +151,6 @@ wifiEl.addEventListener('click', function(){
 
 axios.get("http://localhost:8080/app/home").then((res) => {
     restaurants = Array.from(res.data.restaurants.elements);
-    //console.log(restaurants);
     for (let i = 0; i < restaurants.length; i++) {
         addMarker(restaurants[i]);
     }
