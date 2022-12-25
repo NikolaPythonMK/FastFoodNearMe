@@ -100,7 +100,8 @@ function filterOpenedRestaurants(){
         }
     }
     if(markers.length == 0){
-        alert("Нема ресторани во моментов кој работат");
+        let date = new Date();
+        alert("Нема ресторани во моментов кои работат");
     }
 }
 

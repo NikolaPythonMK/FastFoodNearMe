@@ -89,5 +89,25 @@ a:hover{
 #show-all{
     color: #2565ae;
     text-decoration: underline;
+    display: block;
+    margin-bottom: 10px;
 }
+
+
+  @media only screen and (max-width: 500px) {
+    body{
+        background-color: #eee;
+    }
+    #map{
+        position: relative;
+        width: 100%;
+    }
+    #search-form{
+        position: absolute;
+        z-index: 100000;
+        top: 10%;
+    }
+
+  }
+
 
