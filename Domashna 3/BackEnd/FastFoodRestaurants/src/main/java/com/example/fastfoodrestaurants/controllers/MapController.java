@@ -3,6 +3,7 @@ package com.example.fastfoodrestaurants.controllers;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
 
 import java.io.*;
 import java.util.stream.Collectors;
