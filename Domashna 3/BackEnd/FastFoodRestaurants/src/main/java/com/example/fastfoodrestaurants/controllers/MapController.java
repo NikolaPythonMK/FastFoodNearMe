@@ -26,7 +26,7 @@ public class MapController {
                                              @RequestParam String message) throws IOException {
         BufferedWriter writer = new BufferedWriter(new FileWriter("src/main/resources/static/messages", true));
         writer.write("\n");
-        writer.write("Message from " + name + " " + email);
+        writer.write("Message from: " + name + " " + email);
         writer.write("\n");
         writer.write(message);
         writer.flush();
